@@ -3,7 +3,7 @@
 ## Data: Kaggle Covid Dataset
 Link: https://www.kaggle.com/datasets/hemanthhari/symptoms-and-covid-presence?resource=download 
 
-Logistic Regression: Covid Status & Faver symptom Relationship 
+Logistic Regression: Covid Status & Fever symptom Relationship 
 <img width="559" height="383" alt="image" src="https://github.com/user-attachments/assets/5d67a901-afe0-496c-8aab-1365cc05e46f" /> <img width="491" height="344" alt="image" src="https://github.com/user-attachments/assets/e0de338b-94d7-46a2-8a0f-a23c97dce468" />
 
 Bayesian Classification: Code, Confusion Matrix & Model Accuracy
