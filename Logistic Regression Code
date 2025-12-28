@@ -1,0 +1,20 @@
+import pandas as pd
+data = pd.read_csv('Covid Dataset.csv')
+data.head()
+
+print(data.shape)
+print(data.info())
+print(data['COVID‑19'].value_counts())   
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Create Covid Infection Status Bar Chart Visual Creation
+sns.countplot(x='COVID-19', data=data)
+plt.title('COVID-19 infection status')
+plt.show()
+
+# Fever Symptom vs Covid Status Relationship Bar Chart  Visual Creation
+sns.countplot(x='Fever', hue='COVID-19', data=data)
+plt.title('Fever vs COVID‑19 status')
+plt.show()
